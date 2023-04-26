@@ -1,0 +1,14 @@
+<script>
+  window.onload = function() {
+    var path = window.location.pathname;
+    if (path.endsWith('/importadores')) {
+      window.location.href = 'imp.html';
+    } else if (path.endsWith('/equipe')) {
+      window.location.href = 'eqp.html';
+    } else if (path.endsWith('/investidores')) {
+      window.location.href = 'inv.html';
+    } else {
+      window.location.href = 'outro.html';
+    }
+  };
+</script>
