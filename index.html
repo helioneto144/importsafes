@@ -102,7 +102,44 @@
                 .a:hover {
                             display: block;
                             opacity: 1;
-                }
+					}
+@media only screen and (orientation: portrait) {
+  body {
+    font-size: 55px;
+  }
+  
+  .header {
+    flex-direction: column;
+  }
+  
+  .nav {
+    width: 200%;
+  }
+  
+  .nav a {
+    display: block;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  
+  .logo {
+    height: 1000x;
+  }
+  
+  .hero h1 {
+    font-size: 40rem;
+  }
+  
+  .hero p {
+    font-size: 40rem;
+  }
+		}
+		  
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 	</style>
 </head>
 <body>
@@ -209,7 +246,7 @@
 			opacity: 0.3;
 			border-radius: 20% 10% 50% 50%;
 		}
-@media only screen and (max-width: 900px) {
+@media only screen and (orientation: portrait) {
   body {
     font-size: 55px;
   }
